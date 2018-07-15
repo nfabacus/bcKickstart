@@ -1,4 +1,5 @@
-require('dotenv').config();
+const path = require('path'); //for cross platform compatibility
+require('dotenv').config({path: path.join(__dirname, "../.env")});
 const HDWalletProvider = require('truffle-hdwallet-provider');
 const Web3 = require('web3');
 const compiledFactory = require('./build/CampaignFactory.json');
