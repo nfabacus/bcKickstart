@@ -28,7 +28,7 @@ npm install --save ganache-cli mocha solc fs-extra web3@1.0.0-beta.26
   ```
   npm install --save truffle-hdwallet-provider@0.0.3
   ```
-  - Create a file called deploy.js in the root:
+  - Create a file called deploy.js in ethereum folder:
   - Wire up web3 with provider to a Rinkeby network (make sure to console.log the account created, so we can see)
   - To deploy, ```node deploy.js```
   - Check the address of the contract and go to https://rinkeby.etherscan.io. You can see if the contract is deployed by searching for the address.
