@@ -22,7 +22,7 @@ npm install --save ganache-cli mocha solc fs-extra web3@1.0.0-beta.26
       ```
 3. Deploying to Rinkeby Network for test<br>
   Flow of communication this time:<br>
-  API - web3 instance with Rinkeby network provider - connects via Infura's API to Infura's Node in Rinkeby Network.
+  ABI - web3 instance with Rinkeby network provider - connects via Infura's API to Infura's Node in Rinkeby Network.
   - Signup at Infura.io
   - install truffle-hdwallet-provider (Provider)
   ```
